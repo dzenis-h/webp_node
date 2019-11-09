@@ -2,7 +2,7 @@ const imagemin = require("imagemin");
 const imageminWebp = require("imagemin-webp");
 
 // 'images' is the folder containg images to be coverted
-imagemin(["images/*.{jpg,png,JPG,jpeg}"], {
+imagemin(["images/*.{jpg,png,jpeg}"], {
   // here we set all the types that we want to convert
   destination: __dirname + "/converted/", // this will be the output folder
   plugins: [
