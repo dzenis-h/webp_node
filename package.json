@@ -1,0 +1,21 @@
+{
+  "name": "webp_node",
+  "version": "1.0.0",
+  "description": "Simple script that converts .jpg & .png images to .webp format",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Dzenis H.",
+  "license": "ISC",
+  "keywords": [
+    "webp",
+    "compression",
+    "optimization",
+    "images"
+  ],
+  "dependencies": {
+    "imagemin": "^7.0.0",
+    "imagemin-webp": "^5.1.0"
+  }
+}
